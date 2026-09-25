@@ -9,3 +9,33 @@ h1{
 img{
     width: 250px;
 }
+
+/*Child combinator*/
+#images > img{
+    border: 5px solid black;
+}
+
+/*Descendant combinator*/
+
+#images img{
+    display:grid;
+}
+
+/*Sibling combinator*/
+p ~ *{
+    text-shadow: 2px 5px 10px black;
+}
+
+div + *{
+    border:dashed;
+    border-color:blue
+}
+
+/*Next-sibling-only combinator*/
+p + *{
+    color:red;
+}
+
+p + ul{
+    text-align:right;
+}
