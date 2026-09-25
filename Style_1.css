@@ -18,11 +18,15 @@ ol, ul{
     background-color:white;
 }
 
+li.Apple#special{
+    color:blanchealmond;
+    background-color:violet;
+}
+
 li.Apple{
     text-transform:lowercase;
 }
 
-li.Apple#special{
-    color:blanchealmond;
-    background-color:violet;
+.Apple{
+    font-family:Courier New, 'Courier New', Courier, monospace;
 }
