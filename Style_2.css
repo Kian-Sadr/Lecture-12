@@ -5,3 +5,23 @@ body {
 h1{
     text-align: center;
 }
+
+[href]{
+    font-size:50px;
+}
+[href="https://duckduckgo.com/"]{
+    text-transform:uppercase;
+}
+
+[href*="python"]{
+    text-shadow: 4px 2px 4px 2px plum;
+}
+
+[href$="bookshelf"]{
+    background-color:aqua;
+}
+
+[href^="https://www.gutenburg.org/"]{
+    text-decoration-line:overline underline;
+    text-decoration-thickness: 5px;
+}
