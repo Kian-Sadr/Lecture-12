@@ -30,3 +30,12 @@ li.Apple{
 .Apple{
     font-family:Courier New, 'Courier New', Courier, monospace;
 }
+
+*[class]{
+    text-decoration-line:overline;
+    text-decoration-thickness:5px;
+}
+
+li[id]{
+    text-decoration-line:underline;
+}
