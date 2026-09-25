@@ -10,6 +10,19 @@ ol, ul{
     text-shadow: 2px 5px 4px green;
 }
 
-*::selection{
+*{
     background-color:aqua;
+}
+
+*::selection{
+    background-color:white;
+}
+
+li.Apple{
+    text-transform:lowercase;
+}
+
+li.Apple#special{
+    color:blanchealmond;
+    background-color:violet;
 }
